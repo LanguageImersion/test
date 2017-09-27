@@ -3,8 +3,33 @@
 <head>
   <meta charset="UTF-8">
   <title>Document</title>
+  <style>
+  	.image {
+  		transition: transform 1s;
+  		height:500px;
+  	}
+
+  	.new-name {
+  		transition: transform 1s;
+  		transform: translateX(300px);
+  		height: 300px;
+  	}
+  </style>
 </head>
 <body>
+<div id='red'>
+	<h1>Hello world!</h1>
+</div>
+<input id='inputField' type="text" name="inputField"/>
+
+
+
+<button id='clicker' type="button" >Click To Send!</button>
+
+<!-- <div>  <img id="image" class="image" src="circle.gif"/></div> -->
+<div id='messageLogs'></div>
+
   <script src="bundle.js"></script>
+
 </body>
 </html>
