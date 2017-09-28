@@ -1,7 +1,10 @@
 var path = require("path");
 module.exports = {
   entry: {
-    app: ["./entry.js"]
+    app: [
+      "./entry.js",
+      "./objects.js"
+    ]
   },
   output: {
     publicPath: "/",
